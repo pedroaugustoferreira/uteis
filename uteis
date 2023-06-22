@@ -1,0 +1,7 @@
+alias k='k3s kubectl'
+
+ns()    
+{
+  
+  k3s kubectl config set-context --current --namespace="$1"
+}
